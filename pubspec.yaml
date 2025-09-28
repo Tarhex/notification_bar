@@ -1,0 +1,21 @@
+name: notification_bar
+description: A global, animated, queued notification bar for Flutter apps. Supports top/bottom positioning, multiple styles, and tap-to-navigate actions.
+version: 1.0.0
+homepage: https://github.com/Tarhex/notification_bar
+repository: https://github.com/Tarhex/notification_bar
+issue_tracker: https://github.com/Tarhex/notification_bar/issues
+
+environment:
+  sdk: ">=2.17.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
