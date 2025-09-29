@@ -13,15 +13,28 @@ A global, animated, queued notification bar for Flutter apps.
 
 ## 🚀 Installation
 
-Add to your `pubspec.yaml`:
+To use `notification_bar`, add the following dependency to your `pubspec.yaml`:
 
-### yaml
+``` yaml
 dependencies:
   notification_bar: ^1.0.0
+```
 
+Run the following command to install the dependency:
 
-### Usage
+```bash
+flutter pub get
+```
 
+## Usage
+
+Import the package into your Dart file:
+
+```dart
+import 'package:notification_bar/notification_bar.dart';
+```
+
+```dart
 NotificationBar().show(
   context: context,
   message: 'Feature is off. Tap to enable.',
@@ -29,3 +42,4 @@ NotificationBar().show(
   position: NotificationPosition.top,
   onTap: () => Navigator.push(context, MaterialPageRoute(builder: (_) => const SettingsPage())),
 );
+```
