@@ -20,7 +20,7 @@ dependencies:
   notification_bar: ^1.0.0
 
 
-## Usage
+### Usage
 
 NotificationBar().show(
   context: context,
